@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <Title>NugetCICDExample</Title>
+    <Authors>Maciej Chyczewski</Authors>
+    <Summary>Summary</Summary>
+    <Description>Description</Description>
+    <Copyright>Copyright (c) Maciej Chyczewski. All rights reserved.</Copyright>
+    
+    <PackageProjectUrl>https://github.com/chyczewski-maciej/NugetCICDExample</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/chyczewski-maciej/NugetCICDExample/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>ExampleTag</PackageTags>
+
+    <RepositoryUrl>https://github.com/chyczewski-maciej/NugetCICDExample.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+  
+    <OutputType>library</OutputType>
+    
+    <IsPackable>true</IsPackable>
+    <PackageId>NugetCICDExample</PackageId>
+    <Version>1.0.0.0</Version>
+  </PropertyGroup>
+
+</Project>
